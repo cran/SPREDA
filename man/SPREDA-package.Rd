@@ -12,8 +12,8 @@ The Statistical Package for REliability Data Analysis (SPREDA) implements recent
 \tabular{ll}{
 Package: \tab SPREDA\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2014-09-20\cr
+Version: \tab 1.1\cr
+Date: \tab 2018-11-25\cr
 License: \tab GPL-2\cr
 }
 Contains functions that are useful for the analysis of reliability data.

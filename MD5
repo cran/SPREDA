@@ -1,11 +1,11 @@
-6a8eb7d075b1231fbca8c5075f782588 *DESCRIPTION
-d3497a638aa45676ade74250d4aab38a *NAMESPACE
+e38fc1c910d6d39d506ee698c2455a01 *DESCRIPTION
+eb0502409d8992252c87433f821d52bb *NAMESPACE
 030ad7bb0ad14ee112e4f956aca1692b *R/Lifedata.MLE.R
 60df1d8d03ddbba25d4abab82e47e27a *R/MIC.splines.basis.R
 2ef0de6bfbca2ab2dc9bc49b5a8b3ace *R/Px.R
 6101945bb4d61b42a0894e4911cfce2b *R/SPREDA-internal.R
 70960bf467412a3742dbbc42ce378dc8 *R/ce.dat.prep.R
-a5ec1042ad57288c52af0fe2553c8021 *R/clme.R
+45e330bd836f45ab86bccb451b9da6d0 *R/clme.R
 08285b32758ef1e1f7479a7428cf28ae *R/cls.R
 45a55cef7745a7a803cedd06d6256d23 *R/coef.Lifedata.MLE.R
 5a9252d9ed1f04f0a48b5c9342363011 *R/coef.deglmx.MLE.R
@@ -49,7 +49,7 @@ f151289027726c62a2fe288985904433 *R/print.deglmx.R
 10e187f4a45091a7d3447beaca1fa2e1 *R/qsev.R
 32cc00c2cc1ec14f8ecf55f2bd635583 *R/rlev.R
 f23c043e447389ba54397b11ab6ccfd2 *R/rsev.R
-1933512127e40c6869b4711d0fa00359 *R/sqrt.mat.R
+08bad8b6b3bda34da9ff460f538d474e *R/sqrt_mat.R
 cbededfdf9d5c9a4dc6d50feed9e135b *R/summary.Lifedata.MLE.R
 5ff67fd459397500da39ad973f88fe4c *R/xmat.obj.to.xmat.R
 90ca257d71781f15c6e073904245ee9c *R/xmat.to.cumsum.R
@@ -64,10 +64,10 @@ e1ead9a14f25a7810a5b141c40f6d501 *man/Coatingout.Rd
 91bc9c91f79c46f967ae88dcaddc8a4c *man/MIC.splines.basis.Rd
 6d634cd82c4a868377369243a19ababa *man/Prod2.fai.dat.Rd
 4a349cea1c153475a1b393c0faeaf0ae *man/Prod2.xt.dat.Rd
-ae02352252d84a3c9c212eb1b98ddb1d *man/SPREDA-package.Rd
+f7b2e5c466707384b73d1256d50f2c0e *man/SPREDA-package.Rd
 74f57db6f22c767bbf5678b46000885c *man/ce.dat.prep.Rd
 70f9140fbca4afda6d397d1415ce201c *man/cls.Rd
-0214fc28b25d080840dfb7b946c0cd26 *man/deglmx.Rd
+5d8bfcf257f99d858d73846e57d83c17 *man/deglmx.Rd
 9bc391a3392b48ef20d282697a8e005c *man/i.spline.x.Rd
 8a040d63dfe210f18c0239a9ac420078 *man/kaplan.meier.location.Rd
 7bfff74abbfd41e7da36528da2acde86 *man/lifedata.MLE.Rd

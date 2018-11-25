@@ -1,4 +1,4 @@
-sqrt.mat <-
+sqrt_mat <-
 function(x)
 {
   aa=eigen(x)

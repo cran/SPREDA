@@ -14,7 +14,7 @@
 \alias{optim.step2.2}
 \alias{plot.MICsplines}
 \alias{print.deglmx}
-\alias{sqrt.mat}
+\alias{sqrt_mat}
 \alias{Px}
 \alias{xmat.obj.to.xmat}
 \alias{xmat.to.cumsum}

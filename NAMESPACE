@@ -1,3 +1,17 @@
 import(survival)
 import(nlme)
+importFrom("graphics", "abline", "lines", "matplot", "plot")
+importFrom("stats", "aggregate", "dlogis", "dnorm", "formula", "lm",
+             "model.extract", "model.matrix", "optim", "plogis", "pnorm",
+             "qlogis", "qnorm", "quantile", "rnorm", "runif", "sd")
+             
+S3method(coef, Lifedata.MLE)
+S3method(summary, Lifedata.MLE)
+S3method(print, Lifedata.MLE)
+S3method(print, summary.Lifedata.MLE)
+S3method(plot, MICsplines)
+S3method(print, deglmx)
+S3method(logLik, Lifedata.MLE)
+S3method(coef, deglmx.MLE)
+             
 exportPattern("^[[:alpha:]]+")

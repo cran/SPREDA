@@ -62,7 +62,7 @@ function(dat.obj,theta0, random.names=NULL, no.iter,trace=F,tol.eps=1e-6, method
         Z=as.matrix(Z)
         ww=dim(Z)[1]
         SS=Z%*%Sigma%*%t(Z)+ss^2*diag(ww)
-        SS.sqrt=sqrt.mat(SS)
+        SS.sqrt=sqrt_mat(SS)
         
         
         SS.inv.sqrt=solve(SS.sqrt)
