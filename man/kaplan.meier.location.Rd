@@ -10,7 +10,7 @@ kaplan.meier.location(fit)
 }
 \arguments{
   \item{fit}{
-\link{survfit} object.
+\link[survival]{survfit} object.
 }
 }
 \value{

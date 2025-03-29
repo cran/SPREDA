@@ -26,7 +26,7 @@ plotdeglmx(x, type)
 
 
 \seealso{
-  \link{deglmx}
+  \link[SPREDA]{deglmx}
 }
 \examples{
  data(Coatingenv)

@@ -5,7 +5,7 @@ function(dat,coef, random.eff,iter){
     err=0  
     err.num=0
     result1=try(optim.step1.2(dat, coef, random.eff), silent=T)
-    if(class(result1)== "try-error"){err=1}
+    if(inherits(result1, "try-error")){err=1}
     while(err==1){
       coef[3]=coef[3]+0.002
       result1=try(optim.step1.2(dat, coef, random.eff), silent=T)
@@ -13,7 +13,7 @@ function(dat,coef, random.eff,iter){
                                     loglik=NULL, error=NULL, std.error=NULL, nlme.result=NULL, dat=dat, conv=F))
                     break}
       err.num=err.num+1
-      if(class(result1)!= "try-error"){err=0}
+      if(!inherits(result1, "try-error")){err=0}
     }
     result2=nlme(DAMAGE_Y~optim.step2.2(Dt,  A, B, r1, r2), fixed=A+B~1,random=r1+r2~1 | id, 
                  start=c(result1$coef[1], result1$coef[2]), data=result1$newdata)
@@ -22,7 +22,7 @@ function(dat,coef, random.eff,iter){
     ss0=try(exp(kk[1]), silent=T)
     ttt=0
     
-    if(class(ss0)== "try-error"){ttt=1} 
+    if(inherits(ss0, "try-error")){ttt=1} 
     while(ttt==1){
       tryA=rnorm(1, result1$coef[1], 0.5)
       tryB=rnorm(1, result1$coef[2], 0.5)
@@ -30,7 +30,7 @@ function(dat,coef, random.eff,iter){
                    start=c(tryA, tryB), data=result1$newdata)
       kk=as.vector(attr(result2$apVar,"Pars"))    
       ss0=try(exp(kk[1]), silent=T)
-      if(class(ss0)== "try-error") { ttt=1 }else{ttt=0}
+      if(inherits(ss0, "try-error")) { ttt=1 }else{ttt=0}
     }
     ss0=exp(kk[1])  
     ss1=exp(kk[2])

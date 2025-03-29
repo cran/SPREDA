@@ -30,7 +30,7 @@ rlev(n)
 Yili Hong
 }
 \seealso{
-  \link{psev}, \link{dsev}, \link{qsev}, \link{rsev}. 
+  \link[SPREDA]{psev}, \link[SPREDA]{dsev}, \link[SPREDA]{qsev}, \link[SPREDA]{rsev}. 
 }
 \examples{
 plev(c(2,3))

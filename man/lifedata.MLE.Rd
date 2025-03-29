@@ -35,7 +35,7 @@ A data frame contains dynamic covariates. The first and second columns must be s
 Distribution used in the model. Can be "weibull", "lognormal", "loglogistic", "frechet". 
 }
   \item{method}{
-Default is "BFGS". This function calls \link{optim} to do optimization. Other options can be found in \link{optim}.
+Default is "BFGS". This function calls \link[stats]{optim} to do optimization. Other options can be found in \link[stats]{optim}.
 }
   \item{subset}{
 This is an optional argument that specifies the subset of observations to be used in the fitting procedure.
@@ -56,7 +56,7 @@ An optional vector of reference time (start time) of dynamic covariates. If it i
 Initial values for parameters.
 }
   \item{\dots}{
-Further arguments can be passed to \link{optim}. 
+Further arguments can be passed to \link[stats]{optim}. 
 }
 }
 \details{
@@ -79,7 +79,7 @@ Yili Hong and William Q. Meeker. Field-Failure Predictions Based on Failure-Time
 Yili Hong
 }
 \seealso{
-\link{Surv}, \link{optim}, \link{summary.Lifedata.MLE}. See methods(class="Lifedata.MLE") for all the functions related to "Lifedata.MLE" object.
+\link[survival]{Surv}, \link[stats]{optim}, \link[SPREDA]{summary.Lifedata.MLE}. See methods(class="Lifedata.MLE") for all the functions related to "Lifedata.MLE" object.
 }
 \examples{
 #################################################################

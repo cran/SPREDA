@@ -42,7 +42,7 @@ Yili Hong
 }
 
 \seealso{
-\code{\link{m.spline.x}}
+\code{\link[SPREDA]{m.spline.x}}
 }
 \examples{
 i.spline.x(xx=runif(20), tt=c(0, 0, 0, 0.3, 0.6, 0.8, 1, 1, 1 ), i=3, k=3, 

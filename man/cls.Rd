@@ -33,7 +33,7 @@ Fraser, D. A. S. and H. Massam (1989), A mixed primal-dual bases algorithm for r
  Yili Hong
 }
 \seealso{
-\link{clme} and \link{deglmx}
+\link[SPREDA]{clme} and \link[SPREDA]{deglmx}
 }
 
 \examples{

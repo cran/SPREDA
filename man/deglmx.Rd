@@ -82,7 +82,7 @@ weights = NULL, subset = NULL, start, maxiter = 10, method = "BFGS", ...)
  The maximum number of iteration in the optimization. 
 }
   \item{method}{
- The method of \link{optim} function with "BFGS" as default. More details in \link{optim}.
+ The method of \link[stats]{optim} function with "BFGS" as default. More details in \link[stats]{optim}.
 }
   \item{\dots}{
  Other items. 

@@ -19,13 +19,13 @@ First column contains event times, second column contains event indicators.}
 Initial values for parameters.
 }
   \item{method}{
-Default is "BFGS". This function call \link{optim} to do optimation. Other options can be found in \link{optim}.
+Default is "BFGS". This function call \link[stats]{optim} to do optimation. Other options can be found in \link[stats]{optim}.
 }
   \item{hessian}{
 A logical value. If TRUE, hessian matrix will be returned. Default is TRUE.
 }
   \item{\dots}{
-Further arguments can be passed to \link{optim}. }
+Further arguments can be passed to \link[stats]{optim}. }
 }
 \value{
 A list of 
@@ -40,7 +40,7 @@ A list of
 Yili Hong
 }
 \seealso{
-\code{\link{optim}}
+\code{\link[stats]{optim}}
 }
 \examples{
 #censored samples from Weibull distribution

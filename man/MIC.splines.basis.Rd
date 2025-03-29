@@ -58,7 +58,7 @@ Hong. Y., Y. Duan, W. Q. Meeker, D. L. Stanley, and X. Gu (2014), Statistical Me
 Yili Hong
 }
 \seealso{
-\link{i.spline.x}, \link{m.spline.x}
+\link[SPREDA]{i.spline.x}, \link[SPREDA]{m.spline.x}
 }
 \examples{
 MIC.splines.basis(x=runif(20), df = NULL, knots = 3, boundary.knots = NULL, 

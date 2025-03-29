@@ -14,7 +14,7 @@ ce.dat.prep(xt.dat, failure.dat, ref_time = NULL)
 "data.frame" format object. The first and second columns are sample id and time, respectively. Other columns are dynamic covariates.
 }
   \item{failure.dat}{
-A "Surv" object. See \link{Surv}.
+A "Surv" object. See \link[survival]{Surv}.
 }
   \item{ref_time}{
 Reference time for each sample. If not specified, ref_time is a vector of 0's.

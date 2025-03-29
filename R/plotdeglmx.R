@@ -1,6 +1,6 @@
 plotdeglmx <-
 function(x, type){
-  if(class(x)!="deglmx"){print("Error: the object should be in the class of deglmx.")}
+  if(!inherits(x,"deglmx")){print("Error: the object should be in the class of deglmx.")}
   dfs=x$dat$dfs
   dat=x$dat$dat
   dat.e=x$dyn.data

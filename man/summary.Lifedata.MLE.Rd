@@ -28,5 +28,5 @@ These functions summaries a "Lifedata.MLE" object.
  \item{ori.vcov}{\code{vcov} component in \code{obj}.}
 }
 \seealso{
-\link{Lifedata.MLE}
+\link[SPREDA]{Lifedata.MLE}
 }
